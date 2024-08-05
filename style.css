@@ -8,13 +8,9 @@
     font-style: light;
 }
 .video-background {
-    margin: 0;
-    padding: 0;
     background-size: cover;
     display: flex;
     position: absolute;
-    width: 500rem;
-    height: 500rem;
     right: 0;
     bottom: 0;
     z-index: -1;
@@ -40,4 +36,10 @@ nav a{
     color: whitesmoke;
     padding: 0 1.5rem;
     font-weight: bold;
+}
+@media (max-aspect-ratio: 16/9){
+    .video-background{
+        width: auto;
+        height: 100%;
+    }
 }
