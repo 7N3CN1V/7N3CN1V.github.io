@@ -10,8 +10,8 @@
 .video-background {
     display: flex;
     position: absolute;
-    width: 1080px;
-    height: 2340px;
+    width: 110%;
+    height: 110%;
     right: 0;
     bottom: 0;
     z-index: -1;
