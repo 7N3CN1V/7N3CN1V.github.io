@@ -8,8 +8,6 @@
     font-style: light;
 }
 .video-background {
-    background-size: cover;
-    display: flex;
     position: absolute;
     right: 0;
     bottom: 0;
