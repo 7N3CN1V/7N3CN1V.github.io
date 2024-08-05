@@ -13,8 +13,8 @@
     background-size: cover;
     display: flex;
     position: absolute;
-    width: 110%;
-    height: 110%;
+    width: 500rem;
+    height: 500rem;
     right: 0;
     bottom: 0;
     z-index: -1;
